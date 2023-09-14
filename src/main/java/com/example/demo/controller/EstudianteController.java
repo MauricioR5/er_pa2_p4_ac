@@ -18,7 +18,7 @@ public class EstudianteController {
 	
 	@GetMapping(value = "/nuevoEstudiante")
 	public String paginaNuevoEstudiante(Estudiante etudiante) {
-		return "vistaNuevaMateria";
+		return "vistaNuevoEstudiante";
 	}
 
 	@PostMapping(value = "/insertar")
